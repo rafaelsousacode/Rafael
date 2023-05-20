@@ -444,7 +444,14 @@
             <li>Attachment</li>
         </ol>
         
+        <h2>Alinhamento vertical</h2>
+        <p>Para centralizar uma caixa horizontalmente, ja sabemos que só precisamos usar o <strong>margin-auto</strong>, Mas e quando se trata de uma centralização vertical? bom, nesse caso é um pouco mais complicado. </p>
         
+        <p>Para isso defina ids as caixas para realizar a configuração pontual.</p>
+        <p>Na caixa maior defina <strong>posicion-relative</strong> e na caixa menor <strong>posicion-fixed</strong></p>
+        <p>Faça as configurações necessárias em cada uma como heith e width</p>
+        <p>Em seguida, na menor onde você quer centralizar utilize <strong>left e top, ambos em 50%</strong></p>
+        <p>E por fim utilize <strong>transform: translate(-50%, -50%);</strong> Essas 2 porcentagens permite que você mexa a caixa por onde quiser, dessa forma ficará centralizada, mas se quiser mexer para cima ou baixo e direita ou esquerda basta modificar os valores.</p>
 
     </main>
 
